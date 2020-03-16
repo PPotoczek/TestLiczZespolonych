@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/riveri/Pulpit/ZespoloneTest/BazaTestu.hh
+WyrazenieZesp.hh
+/home/riveri/Pulpit/ZespoloneTest/WyrazenieZesp.hh
+
+/home/riveri/Pulpit/ZespoloneTest/LZespolona.hh
+
+/home/riveri/Pulpit/ZespoloneTest/WyrazenieZesp.hh
+LZespolona.hh
+/home/riveri/Pulpit/ZespoloneTest/LZespolona.hh
+
+/home/riveri/Pulpit/ZespoloneTest/main.cpp
+iostream
+-
+BazaTestu.hh
+/home/riveri/Pulpit/ZespoloneTest/BazaTestu.hh
+
