@@ -1,5 +1,6 @@
 #include<iostream>
 #include "WyrazenieZesp.hh"
+<<<<<<< HEAD
 using std::cin;
 using std::cout;
 using std::endl;
@@ -61,11 +62,19 @@ std::ostream & operator << (std::ostream & str, WyrazenieZesp &WyrZ)
         }
     }
     str << WyrZ.Arg2 << endl;
+=======
+using namespace std;
+
+void Wyswietl(WyrazenieZesp WyrZ)
+{
+    cout << "(" << WyrZ.Arg1.re << showpos << WyrZ.Arg1.im << noshowpos << "i)" << WyrZ.Op << "(" << WyrZ.Arg2.re << showpos << WyrZ.Arg2.im << noshowpos << "i)" << "=" << endl;
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 }
 
 LZespolona Oblicz(WyrazenieZesp  WyrZ)
 {
     LZespolona Wynik;
+<<<<<<< HEAD
     switch(WyrZ.Op)
     {
         case Op_Dodaj:
@@ -90,6 +99,8 @@ LZespolona Oblicz(WyrazenieZesp  WyrZ)
         }
     }
     return Wynik;
+=======
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 }
 /*
  * Tu nalezy zdefiniowac funkcje, ktorych zapowiedzi znajduja sie

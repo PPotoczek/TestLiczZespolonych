@@ -31,8 +31,12 @@ struct WyrazenieZesp {
  */
 
 
+<<<<<<< HEAD
 std::istream & operator >> (std::istream & str, WyrazenieZesp &WyrZ);
 std::ostream & operator << (std::ostream & str, WyrazenieZesp &WyrZ);
+=======
+void Wyswietl(WyrazenieZesp  WyrZ);
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 LZespolona Oblicz(WyrazenieZesp  WyrZ);
 
 #endif

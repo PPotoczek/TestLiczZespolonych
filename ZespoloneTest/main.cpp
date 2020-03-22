@@ -1,6 +1,9 @@
 #include <iostream>
 #include "BazaTestu.hh"
+<<<<<<< HEAD
 #include "Statystyki.hh"
+=======
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 
 using namespace std;
 
@@ -44,6 +47,7 @@ int main(int argc, char **argv)
     cout << " Koniec testu" << endl;
     cout << endl;
 */
+<<<<<<< HEAD
 
  /*
   * Sprawdzam czy statystyki dzialaja
@@ -74,4 +78,19 @@ int main(int argc, char **argv)
  cout << WyrZ << endl;
  L1 = Oblicz(WyrZ);
  cout << L1;
+=======
+ double a=0;
+ LZespolona L1;
+ LZespolona L2;
+ LZespolona L3;
+ Wczytaj(L1);
+ Wczytaj (L2);
+ L3 = L1*L2;
+ Wyswietl(L3);
+ Sprzezenie(L1);
+ Wyswietl(L1);
+ a = Modul(L1);
+ cout << a;
+
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 }

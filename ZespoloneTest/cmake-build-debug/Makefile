@@ -39,10 +39,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +66,11 @@ CMAKE_BINARY_DIR = /home/riveri/Pulpit/ZespoloneTest/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +81,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6911.21/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/home/riveri/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -177,6 +192,7 @@ LZespolona.cpp.s:
 	$(MAKE) -f CMakeFiles/ZespoloneTest.dir/build.make CMakeFiles/ZespoloneTest.dir/LZespolona.cpp.s
 .PHONY : LZespolona.cpp.s
 
+<<<<<<< HEAD
 Statystyki.o: Statystyki.cpp.o
 
 .PHONY : Statystyki.o
@@ -204,6 +220,8 @@ Statystyki.cpp.s:
 	$(MAKE) -f CMakeFiles/ZespoloneTest.dir/build.make CMakeFiles/ZespoloneTest.dir/Statystyki.cpp.s
 .PHONY : Statystyki.cpp.s
 
+=======
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 WyrazenieZesp.o: WyrazenieZesp.cpp.o
 
 .PHONY : WyrazenieZesp.o
@@ -273,9 +291,12 @@ help:
 	@echo "... LZespolona.o"
 	@echo "... LZespolona.i"
 	@echo "... LZespolona.s"
+<<<<<<< HEAD
 	@echo "... Statystyki.o"
 	@echo "... Statystyki.i"
 	@echo "... Statystyki.s"
+=======
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 	@echo "... WyrazenieZesp.o"
 	@echo "... WyrazenieZesp.i"
 	@echo "... WyrazenieZesp.s"

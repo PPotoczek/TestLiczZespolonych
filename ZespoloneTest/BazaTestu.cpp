@@ -3,9 +3,14 @@
 #include <cassert>
 #include "BazaTestu.hh"
 
+<<<<<<< HEAD
 using std::cin;
 using std::cout;
 using std::endl;
+=======
+using namespace std;
+
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 /*
  * Tablica, ktora jest widoczna tylko w tym module.
  * Zawiera ona tresc latwego testu.
@@ -82,7 +87,11 @@ bool InicjalizujTest( BazaTestu  *wskBazaTestu, const char *sNazwaTestu )
      * Analogicznie zrob inicjalizacje dla testu trudne
      */
 
+<<<<<<< HEAD
     std::cerr << "Otwarcie testu '" << sNazwaTestu << "' nie powiodlo sie." << endl;
+=======
+    cerr << "Otwarcie testu '" << sNazwaTestu << "' nie powiodlo sie." << endl;
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
     return false;
 }
 

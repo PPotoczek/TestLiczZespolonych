@@ -4,6 +4,10 @@
 
 #include "WyrazenieZesp.hh"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 /*
  * Modeluje pojecie baze testu z zestawem pytan w tablicy
  * oraz informacji o maksymalnej ilosci pytan, jak

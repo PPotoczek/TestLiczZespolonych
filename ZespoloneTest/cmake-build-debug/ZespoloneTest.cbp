@@ -96,12 +96,15 @@
 		<Unit filename="/home/riveri/Pulpit/ZespoloneTest/LZespolona.hh">
 			<Option target="ZespoloneTest"/>
 		</Unit>
+<<<<<<< HEAD
 		<Unit filename="/home/riveri/Pulpit/ZespoloneTest/Statystyki.cpp">
 			<Option target="ZespoloneTest"/>
 		</Unit>
 		<Unit filename="/home/riveri/Pulpit/ZespoloneTest/Statystyki.hh">
 			<Option target="ZespoloneTest"/>
 		</Unit>
+=======
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 		<Unit filename="/home/riveri/Pulpit/ZespoloneTest/WyrazenieZesp.cpp">
 			<Option target="ZespoloneTest"/>
 		</Unit>

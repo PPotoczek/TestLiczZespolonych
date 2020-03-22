@@ -35,6 +35,7 @@ LZespolona operator * (LZespolona Skl1, LZespolona Skl2);
 
 LZespolona  operator / (LZespolona  Skl1,  LZespolona  Skl2);
 
+<<<<<<< HEAD
 void Wyswietl(std::ostream & str, LZespolona &Wynik);
 
 void Utworz (LZespolona &L, double re, double im);
@@ -42,6 +43,13 @@ void Utworz (LZespolona &L, double re, double im);
 std::ostream & operator << (std::ostream & str, LZespolona &Wynik);
 
 std::istream & operator >> (std::istream & str, LZespolona &L);
+=======
+void Wyswietl(LZespolona &Wynik);
+
+void Utworz (LZespolona &L, double re, double im);
+
+void Wczytaj (LZespolona &L);
+>>>>>>> 3930e29a7a23c20a6df796b3bd0370c6b8c3da97
 
 
 #endif
