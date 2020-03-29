@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/riveri/Pulpit/ZespoloneTestv1/LZespolona.cpp
+iostream
+-
+math.h
+-
+LZespolona.hh
+/home/riveri/Pulpit/ZespoloneTestv1/LZespolona.hh
+
+/home/riveri/Pulpit/ZespoloneTestv1/LZespolona.hh
+
